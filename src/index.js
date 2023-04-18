@@ -8,10 +8,13 @@ import Clock from "./04/Clock";
 import CommentList from "./05/CommentList";
 import NotificationList from "./06/NotificationList";
 import Counter from "./07/Counter";
+import Accomodate from "./07/Accomodate";
+import ConfirmButton from "./08/ConfirmButtonFunc";
+import ConfirmButtonFunc from "./08/ConfirmButtonFunc";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    <Counter />
+    <ConfirmButtonFunc/>
 );
 
 // If you want to start measuring performance in your app, pass a function
