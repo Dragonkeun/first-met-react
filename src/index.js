@@ -11,10 +11,19 @@ import Counter from "./07/Counter";
 import Accomodate from "./07/Accomodate";
 import ConfirmButton from "./08/ConfirmButtonFunc";
 import ConfirmButtonFunc from "./08/ConfirmButtonFunc";
+import LoginControl from "./09/LoginControl";
+import MainPage from "./09/MainPage";
+import LandingPage from "./09/LandingPage";
+import Blog from "./10/Blog";
+import NameForm from "./11/NameForm";
+import FruitSelect from "./11/FruitSelect";
+import Reservation from "./11/Reservation";
+import SignUp from "./11/SignUp";
+import Calculator from "./12/Calculator";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    <ConfirmButtonFunc/>
+    <Calculator/>
 );
 
 // If you want to start measuring performance in your app, pass a function
