@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Library from "./03/Library";
 import Clock from "./04/Clock";
@@ -20,10 +19,14 @@ import FruitSelect from "./11/FruitSelect";
 import Reservation from "./11/Reservation";
 import SignUp from "./11/SignUp";
 import Calculator from "./12/Calculator";
+import WelcomeDialog from "./13/WelcomeDialog";
+import ProfileCard from "./13/ProfileCard";
+import App from "./14/App";
+import DarkOrLight from "./14/DarkOrLight";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    <Calculator/>
+    <DarkOrLight/>
 );
 
 // If you want to start measuring performance in your app, pass a function
