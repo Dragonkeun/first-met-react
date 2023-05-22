@@ -11,7 +11,7 @@ import Accomodate from "./07/Accomodate";
 import ConfirmButton from "./08/ConfirmButtonFunc";
 import ConfirmButtonFunc from "./08/ConfirmButtonFunc";
 import LoginControl from "./09/LoginControl";
-import MainPage from "./09/MainPage";
+// import MainPage from "./09/MainPage";
 import LandingPage from "./09/LandingPage";
 import Blog from "./10/Blog";
 import NameForm from "./11/NameForm";
@@ -23,10 +23,12 @@ import WelcomeDialog from "./13/WelcomeDialog";
 import ProfileCard from "./13/ProfileCard";
 import App from "./14/App";
 import DarkOrLight from "./14/DarkOrLight";
+import MainPage from "./15/MainPage"
+import Blocks from "./15/Blocks";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    <DarkOrLight/>
+    <Blocks/>
 );
 
 // If you want to start measuring performance in your app, pass a function
