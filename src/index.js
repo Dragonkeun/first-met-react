@@ -25,10 +25,11 @@ import App from "./14/App";
 import DarkOrLight from "./14/DarkOrLight";
 import MainPage from "./15/MainPage"
 import Blocks from "./15/Blocks";
+import Weather from "./etc/Weather";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    <Blocks/>
+    <Weather/>
 );
 
 // If you want to start measuring performance in your app, pass a function
